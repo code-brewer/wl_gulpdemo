@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile H5 图片播放</title>
+    <meta content="text/html"; charset="UTF-8"; http-equiv="content-type"/>
+    <link rel="stylesheet" type="text/css" href="./css/picture.css">
+    <link rel="stylesheet" type="text/css" href="./css/welcome.css">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/icon.css">
+</head>
+<body>
+    <header id="header">
+        <script type=text/javascript src="js/changecolor.js"></script>
+        <h1>Welcome</h1>
+        <div class="icons">
+            <img id="icon2" src="images/icon_qq.png">
+        </div>
+        <img id="icon1" src="images/schicon.png">
+        <a onmouseover="mOver(this)" onmouseout="mOut(this)">DESIGN BY WL</a>
+    </header>
+    <div id="banner">
+    <script type=text/javascript src="js/change-pic.js"></script>
+        <div id="pic">
+        <img id="inner-img" src="images/0.jpg">
+        </div>
+        <script type="text/javascript" src="./js/fastclick.js"></script>
+        <script type="text/javascript">"addEventListener"in document&&document.addEventListener("DOMContentLoaded",function(){FastClick.attach(document.body)},!1);</script>
+        <div id="page-number">
+            <a id="number0" onclick="pageNumber(this.innerHTML)" class="numbers-marked" target="_self">1</a>
+            <a id="number1" onclick="pageNumber(this.innerHTML)" class="numbers" target="_self">2</a>
+            <a id="number2" onclick="pageNumber(this.innerHTML)" class="numbers" target="_self">3</a>
+            <a id="number3" onclick="pageNumber(this.innerHTML)" class="numbers" target="_self">4</a>
+            <a id="number4" onclick="pageNumber(this.innerHTML)" class="numbers" target="_self">5</a>
+        </div>
+
+</div>
+</body>
+</html>

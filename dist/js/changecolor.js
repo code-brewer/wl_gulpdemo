@@ -1,0 +1,1 @@
+function mOver(e){var t=document.getElementById(e).id;document.getElementById(t).style.color="#ffff00"}function mOut(e){var t=document.getElementById(e).id;document.getElementById(t).style.color="#fff"}
