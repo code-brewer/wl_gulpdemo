@@ -1,0 +1,19 @@
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+ul,li,table,tr,td,h2,span,p,form,input,dl,dd,dt,img{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    border: 0px
+}
+
+
+
+
+
+
+
+

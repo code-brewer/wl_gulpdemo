@@ -1,0 +1,10 @@
+#icon1 {
+    background:url("../images/schicon.png") ;
+    border: 0;
+}
+#icon2{
+    width: 32px;
+    height: 32px;
+    background:url("../images/icon_qq.png");
+    border: 0;
+}

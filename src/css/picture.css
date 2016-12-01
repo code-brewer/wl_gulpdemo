@@ -1,0 +1,89 @@
+#pic{
+    margin:0 auto;
+    width:800px;
+    padding:0;
+    border:1px solid #333;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#pic img{
+    max-width:780px;
+    border:1px dashed #000;
+}
+
+#banner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    text-align: center;
+}
+#inner-img{
+    max-width:1000px;
+    height:auto;
+}
+#page-number{
+    width:500px;
+    height:25px;
+    text-align:right;
+    margin: 0 auto;
+    position: relative;
+    top:0;
+    padding:0;
+    border:0;
+}
+.numbers{
+    color: #fff;
+    line-height: 15px;
+    font-size: 30px;
+    font-family: 宋体;
+    background-color: #666;
+    padding: 10px 15px;
+    border-left: #cccccc 1px solid;
+    margin: 20px;
+}
+
+.numbers-marked{
+    color: #fff;
+    line-height: 15px;
+    font-size: 30px;
+    font-family: 宋体;
+    background-color:#ff0000;
+    padding: 10px 15px;
+    border-left: #cccccc 1px solid;
+    margin: 20px;
+}
+
+a.numbers:link,a.numbers:visited{
+    text-decoration:none;
+    color:#fff;
+    line-height:15px;
+    font-size:30px;
+    font-family:宋体;
+    background-color:#666;
+}
+a.numbers:active,a.numbers:hover{
+    text-decoration:none;
+    color:#fff;
+    line-height:15px;
+    font-size:30px;
+    font-family:宋体;
+    background-color:#999;
+}
+
+a.numbers-marked:link,a.numbers-marked:visited{
+    text-decoration:none;
+    color:#fff;
+    line-height:15px;
+    font-size:30px;
+    font-family:宋体;
+    background-color:#ff0000;
+}
+
+a.numbers-marked:active,a.numbers-marked:hover{
+    text-decoration:none;
+    color:#fff;
+    line-height:15px;
+    font-size:30px;
+    font-family:宋体;
+    background-color:#ff0000;
+}
